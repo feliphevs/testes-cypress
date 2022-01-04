@@ -1,0 +1,22 @@
+{
+  "name": "testes-cypress",
+  "version": "1.0.0",
+  "description": "Meu primeiro teste em Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feliphevs/testes-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feliphevs/testes-cypress/issues"
+  },
+  "homepage": "https://github.com/feliphevs/testes-cypress#readme",
+  "devDependencies": {
+    "cypress": "^9.2.0"
+  }
+}

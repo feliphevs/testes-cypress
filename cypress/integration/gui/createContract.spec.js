@@ -4,8 +4,10 @@ Cypress.on("uncaught:exception", (err, runnable) => {
   return false;
 });
 
-describe("Realizar login", () => {
+describe("Criar Contract", () => {
+  before(() => cy.Login());
+
   it("Sucesso", () => {
-    cy.Login();
+    cy.gui_createContract();
   });
 });
